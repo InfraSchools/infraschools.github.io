@@ -73,6 +73,13 @@ body {
 }
 
 
+#schoolsmain-nav{
+	color: #01b1d7;
+
+}
+
+
+
 .carousselallofintro{
 	max-height: 100%;
 }
@@ -119,8 +126,8 @@ h1,h2,h3,h4,h5,h6{
 
 section{
 	padding-top: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-bottom: 40px;
 }
 

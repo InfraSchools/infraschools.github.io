@@ -66,7 +66,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <a class="navbar-brand" href="#">
             <img src="images/icons/fotonotesvg.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            InfraSchools
+            Infra<span id="schoolsmain-nav">Schools</span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -136,9 +136,6 @@
   <p>
     Site do projeto desenvolvido e lançado na disciplina de Linguagens de Programação do curso de Sistemas de Informação na UFRPE com o objetivo de melhor visualizar as informações e analisar meta-dados que estão disponíveis no site do governo e verificar a relação entre infraestrutura da escola e o desempenho do aluno.
 
-     <button class="btn btn-primary btn-custom-more" type="button" data-toggle="collapse" data-target="#collapseInfoProject" aria-expanded="false" aria-controls="collapseInfoProject">
-        +
-      </button>
       <a class="" data-toggle="collapse" href="#collapseInfoProject" role="button" aria-expanded="false" aria-controls="collapseInfoProject">
         read english version
       </a>
@@ -155,9 +152,7 @@
   <br>
   <p>
     A Educação é um direito fundamental que ajuda não só no desenvolvimento de um país, mas também de cada indivíduo. Sua importância vai além do aumento da renda individual ou das chances de se obter um emprego. Por meio da Educação, garantimos nosso desenvolvimento social, econômico e cultural.  Logo, a escolha do tema nos chama a atenção e portanto visamos encontrar possíveis problemas que atrapalhem do desenvolvimento do aluno no aprendizado e um das correlações escolhida é a relação com a infraestrutura escolar.
-    <button class="btn btn-primary btn-custom-more" type="button" data-toggle="collapse" data-target="#collapseMotivation" aria-expanded="false" aria-controls="collapseMotivation">
-        +
-      </button>
+  
       <a class="" data-toggle="collapse" href="#collapseMotivation" role="button" aria-expanded="false" aria-controls="collapseExample">
         read english version
       </a>
@@ -198,7 +193,7 @@
       <img class="card-img-top" src="images/imgericoandre.jpg" alt="Imagem de Erico capa do card">
       <div class="card-body">
         <h5 class="card-title">Erico André</h5>
-        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+        <p class="card-text">Programador .</p>
       </div>
       <div class="card-footer">
         <small class="text-muted">Atualizados 3 minutos atrás</small>
@@ -208,7 +203,7 @@
       <img class="card-img-top" src="images/imgeverton.jpg" alt="Imagem de Everton capa do card">
       <div class="card-body">
         <h5 class="card-title">Everton</h5>
-        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+        <p class="card-text">Programador.</p>
       </div>
       <div class="card-footer">
         <small class="text-muted">Atualizados 3 minutos atrás</small>
@@ -218,7 +213,7 @@
       <img class="card-img-top" src="images/imgkim.jpg" alt="Imagem de Kimbelly capa do card">
       <div class="card-body">
         <h5 class="card-title">Kimbelly Ferraz</h5>
-        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+        <p class="card-text">WebDesigner e programadora, adora estudar UX e UI Design e pretende se aprofundar cada vez mais nessa área.</p>
       </div>
       <div class="card-footer">
         <small class="text-muted">Atualizados 3 minutos atrás</small>
@@ -229,10 +224,70 @@
 
 <!-- [End team ]==========================================================================================================--> 
 
-<!-- [Start contact ]=======================================================================================================--> <section class="contact">
+<!-- [Start contact ]=======================================================================================================--> 
+<section class="contact">
   <h2 id="titlecontact" >Contact</h2> 
   <hr> 
+
+  <div class="container">
+	  <div class="row">
+	    <div class="col sm">
+	      1 of 3
+	    </div>
+	    <div class="col sm">
+	      2 of 3
+	    </div>
+	    <div class="col sm">
+	      <h4>Send us a message</h4>
+
+
+	      <form action="mail.php" method="post">
+                        <div class="card border-primary rounded-0">
+                           
+                            <div class="">
+
+                                <!--Body-->
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <!--Form with header-->
+	    </div>
+	  </div>
+ </div> 
+
+
 </section>
+
 
 
 
