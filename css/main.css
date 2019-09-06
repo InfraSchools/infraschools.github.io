@@ -79,16 +79,15 @@ body {
 }
 
 
-
 .carousselallofintro{
 	max-height: 100%;
 }
 .carousselallofintro img{
-	max-height: 500px;
+	max-height: 100%;
 	object-fit: cover;
 }
 .carousselallofintro .carousel-inner h5{
-	
+	text-align: left;
 
 }
 
@@ -186,6 +185,7 @@ section{
 	background-color: #181818;
 	color: #E2E2E2 ;
 	margin-top: 30px;
+	padding: 40px;
 }
 .contact hr{
 	
@@ -197,6 +197,10 @@ section{
     display: inline-block;
 }
 #titlecontact{
+	text-align: center;
+}
+.contact a{
+	color: #01b1d7;
 }
 
 
@@ -207,4 +211,11 @@ footer{
 	background: black;
     text-align: center;
     color:white;
+}
+
+.deliveriesdiv{
+	padding-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 40px;
 }

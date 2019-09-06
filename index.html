@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>InfraSchools</title>    
     <meta name="description" content="Info about InfraSchools project" /> 
+    <meta name="keywords" content="infraestrutura das escolas brasileiras, escolas, datascience">
     <meta name="author" content="Kimbelly Ferraz">
     <!-- favicons   ================================================== -->
       <link rel="shortcut icon" type="image/x-icon" href="images/fotoKimicone.ico"/>
@@ -13,8 +14,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no, user-scalable=yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
 
-    <!-- CSS     ================================================== -->
-    <link rel="stylesheet" href="css/main.css">
+
+
+  <!-- font awesome-->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
+  <!-- CSS     ================================================== -->
+  <link rel="stylesheet" href="css/flexslider.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
 
     <!-- script  ================================================== -->
     <!--<script src="js/.js"></script>
@@ -38,9 +48,7 @@
     <script src="https://use.fontawesome.com/2fb902f488.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    
+      
        
   </head>
   
@@ -86,6 +94,7 @@
     </header>
 
 
+
   <!-- [ Start Caroussels/slider ]==========================================================================================================--> 
 
   <div class="carousselallofintro" >
@@ -99,7 +108,7 @@
         <div class="carousel-item active">
           <img class="d-block w-100" src="images/slider/escolasimplesestruturaprec.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
-            <h5>A infraestrutura nas escolas do Brasil e sua influência no rendimento escolar dos seus alunos</h5>
+            <h5>A infraestrutura nas escolas do Brasil e sua influência no rendimento escolar</h5>
             <p>...</p>
           </div>
         </div>
@@ -195,7 +204,7 @@
       <img class="card-img-top" src="images/imgericoandre.jpg" alt="Imagem de Erico capa do card">
       <div class="card-body">
         <h5 class="card-title">Erico André</h5>
-        <p class="card-text">Programador .</p>
+        <p class="card-text">Desenvolvedor/Developer .</p>
       </div>
       <div class="card-footer">
         <small class="text-muted">Atualizados 3 minutos atrás</small>
@@ -205,7 +214,7 @@
       <img class="card-img-top" src="images/imgeverton.jpg" alt="Imagem de Everton capa do card">
       <div class="card-body">
         <h5 class="card-title">Everton</h5>
-        <p class="card-text">Programador.</p>
+        <p class="card-text">Desenvolvedor/Developer.</p>
       </div>
       <div class="card-footer">
         <small class="text-muted">Atualizados 3 minutos atrás</small>
@@ -215,7 +224,7 @@
       <img class="card-img-top" src="images/imgkim.jpg" alt="Imagem de Kimbelly capa do card">
       <div class="card-body">
         <h5 class="card-title">Kimbelly Ferraz</h5>
-        <p class="card-text">WebDesigner e programadora, adora estudar UX e UI Design e pretende se aprofundar cada vez mais nessa área.</p>
+        <p class="card-text">WebDesigner e desenvolvedora/WebDesigner and developer</p>
       </div>
       <div class="card-footer">
         <small class="text-muted">Atualizados 3 minutos atrás</small>
@@ -227,62 +236,67 @@
 <!-- [End team ]==========================================================================================================--> 
 
 <!-- [Start contact ]=======================================================================================================--> 
-<section class="contact">
-  <h2 id="titlecontact" >Contact</h2> 
-  <hr> 
+<section class="contact"> 
 
   <div class="container">
 	  <div class="row">
 	    <div class="col-sm">
-	      1 of 3
+	    	 <h5>About us</h5>
+	    	 <hr>
+	    	 <p>
+				Team assembled to analyze and apply data science to available school data in Brazil, looking for the relationship between school infrastructure and student achievement</p>
 	    </div>
+
 	    <div class="col-sm">
-	      2 of 3
+	    	<h5>Important links/contact</h5>
+	    	<hr>
+	    	<ul>
+	    		<li><a href="https://github.com/infraSchools">Github</a></li>
+	    	</ul>
+
+	   
 	    </div>
+
 	    <div class="col-sm">
-	      <h4>Send us a message</h4>
+	      <h5>Send us a message</h5>
+	      <hr>
+
+	      <form role="form" method="POST" action="https://formspree.io/kimbellyferraz@gmail.com">
+	      	<div class="form-group">
+	      		<div class="input-group mb-2">
+                	<div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                    </div>
+                	<input type="text" class="form-control" id="nameformcontact" name="nameformcontact" placeholder="name and username" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                    </div>
+                	<input type="email" class="form-control" id="nameformcontact" name="email" placeholder="ejemplo@gmail.com" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                    </div>
+                    <textarea class="form-control" placeholder="Message here" required></textarea>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" value="Send" class="btn btn-info btn-block rounded-0 py-2">
+            </div>
+	      </form>
+	    </div>
 
 
-	      <form action="mail.php" method="post">
-                        <div class="card border-primary rounded-0">
-                           
-                            <div class="card-body p-3">
 
-                                <!--Body-->
-                                <div class="form-group">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
-                                        </div>
-                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-                                        </div>
-                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
-                                    </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
-                                        </div>
-                                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="text-center">
-                                    <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
-                                </div>
-                            </div>
-
-                        </div>
-                    </form>
-                    <!--Form with header-->
+	      
 	    </div>
 	  </div>
  </div> 
