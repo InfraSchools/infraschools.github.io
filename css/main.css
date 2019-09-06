@@ -159,6 +159,7 @@ section{
 	font-style: ;
 	text-align: center;
 
+
 }
 .teamproj img{
 	max-width: 320px;
@@ -184,6 +185,7 @@ section{
 	height: 100%;
 	background-color: #181818;
 	color: #E2E2E2 ;
+	margin-top: 30px;
 }
 .contact hr{
 	
